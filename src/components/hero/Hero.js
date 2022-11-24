@@ -20,13 +20,14 @@ const Hero = () => {
           </p>
             <button className="btn">View Plans</button>
         </div>
-      </div>
-      <div className="hero__image">
+        <div className="hero__image">
         <picture>
           <source media="(max-width:767px)" srcSet={images.intro_mobile}/>
           <img src={images.intro_desktop} alt=''/>
         </picture>
       </div>
+      </div>
+     
 
       <div className="left-bottom-image">
         <picture>
