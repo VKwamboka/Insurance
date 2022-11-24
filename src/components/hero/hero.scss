@@ -4,6 +4,9 @@
     color: var(--white);
     padding: 10rem 0;
     position: relative;
+    @media(max-width:767px){
+        padding: 0;
+    }
 
     // wrapper class
     &__wrapper{
@@ -27,6 +30,9 @@
         }
         @media(max-width: 767px){
             max-width: 100%;
+            padding: 6rem 0;
+            margin: 30px;
+            text-align: center;
         }
 
     }
@@ -42,7 +48,7 @@
         position: absolute;
         right: 0;
         padding: 0 2rem;
-        top: 0;
+        top: -3rem;
         z-index: 10;
         img{
             max-width: 50rem;
@@ -54,11 +60,11 @@
             position: relative;
             padding:0;
         }
+       @media(max-width: 991px){
+
+       } 
     }
 
-    img{
-      max-width: 50rem;  
-    }
     .left-bottom-image, 
     .right-top-image{
         img{
