@@ -19,12 +19,15 @@ const Header = () => {
           <img src={images.logo} alt = 'logo'/>
       </div>
       <ul className={open ? "nav-items active" : 'nav-items'}>
+      <li>
+            <Link to='/'>Home</Link>
+          </li>
           <li>About</li>
           {/* <li>Our Services</li> */}
           <li>Contact</li>
           <li>Portfolio</li>
           <li className="btn btn--nav-btn">
-            <Link to='price'>View plans</Link>
+            <Link to='price'>Plans</Link>
           </li>
       </ul>
       <div className="hamburger">

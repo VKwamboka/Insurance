@@ -1,5 +1,24 @@
 main{
-    .mb-0 {
+    width: 100%;
+    
+    .fw-bold {
+        font-size: 2rem;
         text-align: center;
+    }
+    .mb-0 {
+        font-size: 20px;
+        margin-top: 2rem;
+        text-align: center;
+      
+    }
+    .row{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        padding-top: 5rem;
+    }
+    .p-5{
+        justify-content: space-between;
+        align-self: center;
     }
 }
