@@ -1,5 +1,7 @@
 import React from 'react'
 import Header from '../header/Header'
+import './style.css' 
+import './bootstrap.min.css'
 
 export default function Price() {
   return (
@@ -15,7 +17,7 @@ export default function Price() {
                 <div className="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div className="bg-light rounded">
                         <div className="border-bottom py-4 px-5 mb-4">
-                            <h4 className="text-primary mb-1">Basic Plan</h4>
+                            <h4 className="text-primary mb-1">Family Plan</h4>
                             <small className="text-uppercase">For Small Size Business</small>
                         </div>
                         <div className="p-5 pt-0">
@@ -34,7 +36,7 @@ export default function Price() {
                 <div className="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div className="bg-white rounded shadow position-relative" style={{zIndex: 1}}>
                         <div className="border-bottom py-4 px-5 mb-4">
-                            <h4 className="text-primary mb-1">Standard Plan</h4>
+                            <h4 className="text-primary mb-1">Individual Plan</h4>
                             <small className="text-uppercase">For Medium Size Business</small>
                         </div>
                         <div className="p-5 pt-0">
@@ -53,7 +55,7 @@ export default function Price() {
                 <div className="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                     <div className="bg-light rounded">
                         <div className="border-bottom py-4 px-5 mb-4">
-                            <h4 className="text-primary mb-1">Advanced Plan</h4>
+                            <h4 className="text-primary mb-1">Group Plan</h4>
                             <small className="text-uppercase">For Large Size Business</small>
                         </div>
                         <div className="p-5 pt-0">
