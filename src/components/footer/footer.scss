@@ -1,0 +1,40 @@
+footer{
+    background-color: var(--light-gray);
+    position: relative;
+
+    .logo{
+        max-width: 15rem;
+    }
+
+    .social-media-icons{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        max-width: 25rem;
+        img{
+            max-width: 3rem;
+        }
+    }
+
+    .footer_header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-art{
+        img{
+            max-width: 4rem;
+            position: absolute;
+        }
+        
+    }
+    .footer{
+        width: 100%;
+        @media(max-width: 767px){
+            padding: 0 4rem;
+        }
+        img{
+            max-width: 10rem;
+        }
+    }
+}
