@@ -28,6 +28,11 @@ header {
         font-size: 2rem;
       }
 
+      link{
+        text-decoration: none;
+        
+    }
+
       @media (max-width: 767px) {
         display: none;
         &.active {
