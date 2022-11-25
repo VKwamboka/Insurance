@@ -49,20 +49,20 @@ const Footer = () => {
               <div className="our-compamy">
                 <h4>Contact</h4>
                 <ul>
-                  <li>How we work</li>
-                  <li>Why Insure</li>
-                  <li>View Plans</li>
-                  <li>Reviews</li>
+                  <li>Sales</li>
+                  <li>Support</li>
+                  <li>Live Chat </li>
+               
                 </ul>
               </div>
 
               <div className="our-compamy">
                 <h4>Others</h4>
                 <ul>
-                  <li>How we work</li>
-                  <li>Why Insure</li>
-                  <li>View Plans</li>
-                  <li>Reviews</li>
+                  <li>Careers</li>
+                  <li>Press</li>
+                  <li>Licence</li>
+                  
                 </ul>
               </div>
             </div>
