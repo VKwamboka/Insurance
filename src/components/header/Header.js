@@ -2,6 +2,8 @@ import React,{useState} from "react";
 import {images} from "../../images"
 import './header.scss'
 import '../../scss/main.scss'
+import { Link } from "react-router-dom";
+
 
 const Header = () => {
   const [open, setOpen] = useState(false)
@@ -21,7 +23,9 @@ const Header = () => {
           {/* <li>Our Services</li> */}
           <li>Contact</li>
           <li>Portfolio</li>
-          <li className="btn btn--nav-btn">View plans</li>
+          <li className="btn btn--nav-btn">
+            <Link to='price'>View plans</Link>
+          </li>
       </ul>
       <div className="hamburger">
         <img src={images.hamburger} alt='' onClick={handleClick}/>
