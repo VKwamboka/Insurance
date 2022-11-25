@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../header/Header'
 // import './style.css' 
 // import './bootstrap.min.css'
+import './price.scss'
 
 export default function Price() {
   return (
