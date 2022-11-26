@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../header/Header'
-import Hero from './Hero'
+import Hero from './Heros'
 // import './style.css' 
 // import './bootstrap.min.css'
 import './price.scss'
@@ -18,7 +18,7 @@ export default function Price() {
     <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container py-5">
             <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" >
-                <h5 className="fw-bold text-primary text-uppercase">Pricing Plans</h5>
+                {/* <h5 className="fw-bold text-primary text-uppercase">Pricing Plans</h5> */}
                 <h1 className="mb-0">We are Offering Competitive Prices for Our Clients</h1>
             </div>
             <div className="row g-0">
