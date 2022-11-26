@@ -1,12 +1,14 @@
 import React from 'react'
+import Header from '../header/Header'
 import Hero from '../pricing/Heros'
 
-export default function About() {
+export default function Contact() {
   return (
     <div>
         <div>
-            <Hero/>
+            <Header/>
         </div>
+        <Hero />
     </div>
   )
 }
