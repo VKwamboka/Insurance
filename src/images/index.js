@@ -1,6 +1,7 @@
 export const images = {
   logo: require("./logo.svg").default,
   intro_desktop: require("./image-intro-desktop.jpg"),
+  about: require("./about.jpg"),
   intro_mobile: require("./image-intro-mobile.jpg"),
   intro_left: require("./bg-pattern-intro-left-desktop.svg").default,
   intro_left_mobile: require("./bg-pattern-intro-left-mobile.svg").default,

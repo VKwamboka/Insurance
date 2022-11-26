@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../header/Header'
+import Hero from './Hero'
 // import './style.css' 
 // import './bootstrap.min.css'
 import './price.scss'
@@ -11,7 +12,9 @@ export default function Price() {
         <div>
             <Header/>
         </div>
-       
+       <div>
+        <Hero/>
+       </div>
     <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container py-5">
             <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" >
