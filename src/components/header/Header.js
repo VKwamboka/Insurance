@@ -25,7 +25,9 @@ const Header = () => {
             <li>
               <Link strict to="/contact">Contact</Link>
             </li>
-            <li>Portfolio</li>
+            <li>
+              <Link exact to="/about">Portfolio</Link>
+            </li>
             <li className="btn btn--nav-btn">
               <Link exact to="/price">Plans</Link>
             </li>

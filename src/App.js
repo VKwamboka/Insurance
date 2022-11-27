@@ -6,6 +6,7 @@ import "./scss/main.scss";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Price from "./components/pricing/Price";
 import Contact from "./components/contacts/Contact";
+import About from "./components/about/About";
 // import Header from "./components/header/Header";
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/price" element={<Price />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </Router>
