@@ -14,11 +14,11 @@ export default function Contact() {
         </div>
         <section className="contact-section">
       <div className="container">
-        {/* <ToastContainer position="top-center" /> */}
+        {/* <ToastContainer position="top-center" />
         <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" >
-                {/* <h5 className="fw-bold text-primary text-uppercase">Pricing Plans</h5> */}
+                <h5 className="fw-bold text-primary text-uppercase">Pricing Plans</h5>
                 <h1 className="mb-8 lg:mb-16 font-light text-center sm:text-xl">Got a technical issue? Want to send feedback about a beta feature?<br/> Need details about our Business plan? Let us know.</h1>
-        </div>
+        </div> */}
         <div className="row justify-content-center">
           <div className="col-md-10">
             <div className="wrapper">

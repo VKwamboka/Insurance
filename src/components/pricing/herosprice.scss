@@ -1,4 +1,4 @@
-.heros{
+.herosprice{
     width: 100%;
     background-color: var(--dark-violet);
     color: var(--white);
@@ -47,12 +47,12 @@
     &__image{
         position: absolute;
         right: 0;
-        padding: 0 2rem;
+        padding: 0 3rem;
         top: -3rem;
         z-index: 10;
         img{
             max-width: 50rem;
-            height: 40rem;
+            height: 42rem;
             @media(max-width:767px){
                max-width: 100%; 
             }
