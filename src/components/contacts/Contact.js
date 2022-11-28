@@ -15,6 +15,10 @@ export default function Contact() {
         <section className="contact-section">
       <div className="container">
         {/* <ToastContainer position="top-center" /> */}
+        <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" >
+                {/* <h5 className="fw-bold text-primary text-uppercase">Pricing Plans</h5> */}
+                <h1 className="mb-0">We are Offering Competitive Prices for Our Clients</h1>
+        </div>
         <div className="row justify-content-center">
           <div className="col-md-10">
             <div className="wrapper">
