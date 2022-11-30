@@ -36,7 +36,7 @@ export default function About() {
 				</div>
 			</div>
 			<div class="image-section">
-				<img src="image/img one.jpg">
+				<img src="image/img one.jpg" />
 			</div>
 		</div>
 	</div>
