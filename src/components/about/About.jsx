@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../header/Header'
 import Hero from '../pricing/Heros'
+import './about.css'
 
 
 export default function About() {
