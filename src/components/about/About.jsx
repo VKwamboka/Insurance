@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../header/Header'
 import Hero from '../pricing/Heros'
 import './about.css'
+import { images } from "../../images";
 
 
 export default function About() {
@@ -30,14 +31,14 @@ export default function About() {
 						<a href="">Read More</a>
 					</div>
 				</div>
-				<div class="social">
+				{/* <div class="social">
 					<a href=""><i class="fab fa-facebook-f"></i></a>
 					<a href=""><i class="fab fa-twitter"></i></a>
 					<a href=""><i class="fab fa-instagram"></i></a>
-				</div>
+				</div> */}
 			</div>
 			<div class="image-section">
-				<img src="image/img one.jpg" />
+				<img src={images.ins4} />
 			</div>
 		</div>
 	</div>
