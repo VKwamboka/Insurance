@@ -118,8 +118,8 @@
   }
   
   .btn-primary {
-    background: var(--dark-violet) !important;
-    border-color: var(--dark-violet) !important;
+    background: #d62196 !important;
+    border-color: #d62196 !important;
     color: #fff;
   }
   
@@ -133,7 +133,7 @@
         left: 0;
         width: 60px;
         height: 3px;
-        background: var(--dark-violet);
+        background: #d62196;
         content: "";
       }
     }
@@ -189,7 +189,7 @@
   
   a {
     transition: 0.3s all ease;
-    color: var(--dark-violet);
+    color: #d62196;
     text-decoration: none;
     &:hover,
     &:focus {

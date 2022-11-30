@@ -23,12 +23,12 @@ const Hero = () => {
           </p>
             {/* <button className="btn">View Plans</button> */}
           </div>
-          {/* <div className="heros__image">
+          <div className="heros__image">
             <picture>
               <source media="(max-width:767px)" srcSet={images.intro_mobile} />
               <img src={images.about} alt="" />
             </picture>
-          </div> */}
+          </div>
         </div>
 
         <div className="left-bottom-image">
