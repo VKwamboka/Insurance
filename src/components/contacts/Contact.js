@@ -106,7 +106,7 @@ export default function Contact() {
                       <div className="text pl-3">
                         <p>
                           <span>Address:</span> 198 West 21th Street, Suite 721
-                          New York NY 10016
+                          Nairobi NYB 00100
                         </p>
                       </div>
                     </div>
@@ -117,7 +117,7 @@ export default function Contact() {
                       <div className="text pl-3">
                         <p>
                           <span>Phone:</span>
-                          <a href="tel://123456789">+1235 2355 98</a>
+                          <a href="tel://123456789">+254742799498</a>
                         </p>
                       </div>
                     </div>
@@ -128,8 +128,8 @@ export default function Contact() {
                       <div className="text pl-3">
                         <p>
                           <span>Email:</span>
-                          <a href="mailto:info@yoursite.com">
-                            info@yoursite.com
+                          <a href="mailto:info@insurance.com">
+                            info@yinsurance.com
                           </a>
                         </p>
                       </div>

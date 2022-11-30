@@ -3,6 +3,7 @@ import Header from '../header/Header'
 import Hero from '../pricing/Heros'
 import './about.css'
 import { images } from "../../images";
+import './about.scss'
 
 
 export default function About() {
@@ -27,7 +28,7 @@ export default function About() {
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat.</p>
-					<div class="button">
+					<div class="button btn-primary ">
 						<a href="">Read More</a>
 					</div>
 				</div>
